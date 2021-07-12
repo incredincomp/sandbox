@@ -41,7 +41,7 @@ Try {
   Download-File -url "https://nmap.org/npcap/dist/npcap-1.10.exe" -path "$($PSScriptRoot)\scripts\setups\npcap.exe"
   Download-File -url "https://2.na.dl.wireshark.org/win64/Wireshark-win64-3.4.6.exe" -path "$($PSScriptRoot)\scripts\setups\wireshark.exe"
   # dep for pebear
-  Download-File -url "http://download.microsoft.com/download/3/2/2/3224B87F-CFA0-4E70-BDA3-3DE650EFEBA5/vcredist_x64.exe" -path "$($PSScriptRoot)\scripts\setups\vcredist_x64.exe"
+  Download-File -url "https://aka.ms/vs/16/release/vc_redist.x64.exe" -path "$($PSScriptRoot)\scripts\setups\vcredist_x64.exe"
   Download-File -url "https://github.com/hasherezade/pe-bear-releases/releases/download/0.5.4/PE-bear_0.5.4_x64_win_vs17.zip" -path "$($PSScriptRoot)\scripts\setups\pebear.zip"
   Download-File -url "https://www.winitor.com/tools/pestudio/current/pestudio.zip" -path "$($PSScriptRoot)\scripts\setups\pestudio.zip"
 }
