@@ -3,7 +3,7 @@
   <Networking>Enable</Networking>
   <AudioInput>Disable</AudioInput>
   <VideoInput>Disable</VideoInput>
-  <ProtectedClient>Default</ProtectedClient>
+  <ProtectedClient>True</ProtectedClient>
   <PrinterRedirection>Disable</PrinterRedirection>
   <ClipboardRedirection>Enable</ClipboardRedirection>
   <MappedFolders>
